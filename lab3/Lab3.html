@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Restaurant Reservation</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ffccd5, #ffe6eb);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container{
+            background-color: white;
+            width: 400px;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(255, 105, 135, 0.5);
+            border: 3px solid #ff4d6d;
+        }
+
+        h1{
+            text-align: center;
+            color: #d6336c;
+            font-size: 40px;
+            margin-bottom: 25px;
+            font-family: Georgia, serif;
+        }
+
+        label{
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            color: #b3003c;
+            font-weight: bold;
+        }
+
+        input{
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #ff99ac;
+            border-radius: 10px;
+            outline: none;
+            box-sizing: border-box;
+        }
+
+        input:focus{
+            border-color: #ff3366;
+            box-shadow: 0 0 5px #ff6699;
+        }
+
+        button{
+            margin-top: 25px;
+            width: 100%;
+            padding: 12px;
+            background-color: #ff4d6d;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover{
+            background-color: #d6336c;
+        }
+
+        .heart{
+            text-align: center;
+            font-size: 30px;
+            color: red;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="heart">❤ ❤ ❤</div>
+
+        <h1>Valentine Restaurant</h1>
+
+        <form>
+
+            <label>Name:</label>
+            <input type="text">
+
+            <label>Email:</label>
+            <input type="email">
+
+            <label>Phone No.:</label>
+            <input type="text">
+
+            <label>Date:</label>
+            <input type="date">
+
+            <label>How many persons will be with you?:</label>
+            <input type="number">
+
+            <label>Notes:</label>
+            <input type="text">
+
+            <label>Entry:</label>
+            <input type="text">
+
+            <button type="submit">Reserve Now ❤</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

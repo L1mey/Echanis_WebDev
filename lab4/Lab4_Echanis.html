@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TIC TAC TOR</title>
+
+<style>
+    body {
+        display : flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f2f2f2;
+        font-family: arial, sans-serif;
+
+}
+
+.container{
+    text-align: center;
+}
+
+.h1{
+    font-weight: bold;
+    font-style: sans-serif;
+    font-size: 50px;
+    color:aqua;
+    margin-bottom:20px;
+}
+
+.board{
+    display: grid;
+    grid-template-columns:100px 100px 100px;
+    grid-template-rows:100px 100px 100px;
+    gap: 5px;
+     margin: 20px auto;
+}
+
+.cell{
+    background: #eaea;
+    border:2px solid #333;
+    font-size: 48px;
+    font-weight: bold;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.x{color: darkgreen}
+.o{color: darkgreen}
+
+button{
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    background: #333;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+</style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="h1">Tic Tac Toe</div>
+
+        <div class="board">
+            <div class="cell x">X</div> 
+            <div class="cell o">O</div>
+            <div class="cell x">X</div>
+    
+            <div class="cell o">O</div>
+            <div class="cell x">X</div>
+            <div class="cell o">O</div>
+
+            <div class="cell x">X</div>
+            <div class="cell o">X</div>
+            <div class="cell x">O</div>
+            <br>
+
+        <button>RESER GAME</button>
+    </div>
+
+</body>
+</html>
